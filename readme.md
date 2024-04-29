@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for Anytype</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,31 +13,25 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Go to Anytype Menu Bar > File > Show Directory > Work
+2. Place `custom.css` in that directory
+3. Close and re-open Anytype
 
 ## Gallery
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+Rosé Pine
+
+![Rosé Pine](https://github.com/rose-pine/anytype/assets/44733677/6459ca58-20a4-4170-80e9-752603177c0a)
+
+Rosé Pine Dawn
+
+![Rosé Pine Dawn](https://github.com/rose-pine/anytype/assets/44733677/424a67a9-45c7-444c-9def-30e51f02423b)
+
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
+- [ThatOneCalculator](https://github.com/thatonecalculator)
 
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
 
 - Lowercase meta files, eg. `readme.md`
 - Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
