@@ -1,0 +1,72 @@
+:root {
+    --color-text-primary: #575279;
+    --color-text-secondary: #797593;
+    --color-text-tertiary: #9893a5;
+    --color-text-inversion: #f2e9e1;
+    --color-shape-primary: #907aa9;
+    --color-shape-secondary: #f2e9e1;
+    --color-shape-tertiary: #fffaf3;
+    --color-shape-highlight-medium: rgba(79, 79, 79, 0.08);
+    --color-shape-highlight-light: rgba(79, 79, 79, 0.04);
+    --color-control-accent: #d7827e;
+    --color-control-active: #b4637a;
+    --color-control-inactive: #9893a5;
+    --color-control-bg: #fff;
+    --color-bg-primary: #faf4ed;
+    --color-bg-secondary: #fffaf3;
+    --color-bg-tertiary: #f2e9e1;
+    --color-bg-loader: rgba(242, 233, 222, 0.7);
+    --color-system-accent-100: #ea9d34;
+    --color-system-accent-50: #ffd15b;
+    --color-system-accent-25: #ffee94;
+    --color-system-selection: rgba(24, 163, 241, 0.15);
+    --color-system-drop-zone: rgba(255, 187, 44, 0.25);
+    --color-yellow: #ea9d34;
+    --color-orange: #ea9d34;
+    --color-red: #b4637a;
+    --color-pink: #d7827e;
+    --color-purple: #907aa9;
+    --color-blue: #286983;
+    --color-ice: #286983;
+    --color-teal: #56949f;
+    --color-lime: #56949f;
+    --color-green: #56949f;
+}
+
+html.themeDark {
+    --color-text-secondary: #908caa;
+    --color-text-tertiary: #6e6a86;
+    --color-text-inversion: #1f1d2e;
+    --color-shape-primary: #c4a7e7;
+    --color-shape-secondary: #1f1d2e;
+    --color-shape-tertiary: #26233a;
+    --color-shape-highlight-medium: rgba(79, 79, 79, 0.08);
+    --color-shape-highlight-light: rgba(79, 79, 79, 0.04);
+    --color-control-accent: #ebbcba;
+    --color-control-active: #eb6f92;
+    --color-control-inactive: #9893a5;
+    --color-control-bg: #fff;
+    --color-bg-primary: #191724;
+    --color-bg-secondary: #1f1d2e;
+    --color-bg-tertiary: #26233a;
+    --color-bg-loader: rgba(242, 233, 222, 0.7);
+    --color-system-accent-100: #f6c177;
+    --color-system-accent-50: #f6c177;
+    --color-system-accent-25: #f6c177;
+    --color-system-selection: rgba(24, 163, 241, 0.15);
+    --color-system-drop-zone: rgba(255, 187, 44, 0.25);
+    --color-yellow: #f6c177;
+    --color-orange: #f6c177;
+    --color-red: #eb6f92;
+    --color-pink: #ebbcba;
+    --color-purple: #c4a7e7;
+    --color-blue: #31748f;
+    --color-ice: #31748f;
+    --color-teal: #31748f;
+    --color-lime: #31748f;
+    --color-green: #31748f;
+}
+
+.block.blockText.textCallout>.wrapContent {
+    border-radius: 30px;
+}
