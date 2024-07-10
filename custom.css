@@ -77,8 +77,8 @@ body {
     border-radius: 30px;
 }
 
-.marker.bullet {
-	color: var(--color-text-secondary);
+.markerInner {
+	background: var(--color-text-secondary) !important;
 }
 
 .vault, .head, .root-loader {
