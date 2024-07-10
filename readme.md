@@ -13,6 +13,8 @@
 
 ## Usage
 
+*Requires Anytype 0.41 or later*
+
 1. Go to Anytype Menu Bar > File > Show Directory > Work
 2. Place `custom.css` in that directory
 3. Close and re-open Anytype
