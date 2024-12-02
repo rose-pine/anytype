@@ -100,3 +100,7 @@ body {
 #popupSettings-innerWrap, #popupPage-innerWrap {
     box-shadow: 0px 0px 20px 0px var(--color-bg-tertiary);
 }
+
+.qrWrap {
+	background-color: white !important;
+}
