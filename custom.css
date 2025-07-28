@@ -20,10 +20,11 @@ body {
 /* Blur backdrops */
 /*
 .dimmer {
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(2px);
 }
 */
 
+/* Dawn */
 :root {
     --color-text-primary: #575279;
     --color-text-secondary: #797593;
@@ -57,8 +58,20 @@ body {
     --color-teal: #56949f;
     --color-lime: #56949f;
     --color-green: #56949f;
+    --color-bg-tag-grey: #dfdad9;
+    --color-bg-tag-yellow: rgba(234, 157, 52, 0.15);
+    --color-bg-tag-orange: rgba(234, 157, 52, 0.15);
+    --color-bg-tag-red: rgba(180, 99, 122, 0.15);
+    --color-bg-tag-pink: rgba(215, 130, 126, 0.15);
+    --color-bg-tag-purple: rgba(144, 122, 169, 0.15);
+    --color-bg-tag-blue: rgba(40, 105, 131, 0.15);
+    --color-bg-tag-ice: rgba(86, 148, 159, 0.15);
+    --color-bg-tag-teal: rgba(86, 148, 159, 0.15);
+    --color-bg-tag-lime: rgba(86, 148, 159, 0.15);
+    --color-system-accent-125: #ea9d34;
 }
 
+/* Main */
 html.themeDark {
     --color-text-secondary: #908caa;
     --color-text-tertiary: #6e6a86;
@@ -91,6 +104,17 @@ html.themeDark {
     --color-teal: #31748f;
     --color-lime: #31748f;
     --color-green: #31748f;
+    --color-bg-tag-grey: #26233a;
+    --color-bg-tag-yellow: rgba(246, 193, 119, 0.2);
+    --color-bg-tag-orange: rgba(246, 193, 119, 0.2);
+    --color-bg-tag-red: rgba(235, 111, 146, 0.2);
+    --color-bg-tag-pink: rgba(235, 188, 186, 0.2);
+    --color-bg-tag-purple: rgba(196, 167, 231, 0.2);
+    --color-bg-tag-blue: rgba(49, 116, 143, 0.2);
+    --color-bg-tag-ice: rgba(156, 207, 216, 0.2);
+    --color-bg-tag-teal: rgba(156, 207, 216, 0.2);
+    --color-bg-tag-lime: rgba(156, 207, 216, 0.2);
+    --color-system-accent-125: #f6c177;
 }
 
 /* Important: make QR codes scannable */
@@ -98,8 +122,9 @@ html.themeDark {
     background-color: white !important;
 }
 
-.block.blockText.textCallout>.wrapContent {
-    border-radius: 30px;
+/* Important: fix readability */
+.blocks .block.blockBookmark .inner {
+    background: var(--color-bg-tertiary) !important;
 }
 
 .markerInner {
@@ -110,14 +135,15 @@ html.themeDark {
     background: var(--color-bg-primary) !important;
 }
 
-.listWidget {
-    margin-top: 1em;
-}
-
-.vault .item .iconWrap {
-    background-color: var(--color-bg-tertiary);
+.block.blockText.textCallout>.wrapContent {
+    background: var(--color-bg-tertiary) !important;
 }
 
 #popupSettings-innerWrap, #popupPage-innerWrap {
     box-shadow: 0px 0px 20px 0px var(--color-bg-tertiary);
+}
+
+/* Important: fix "new space" button */
+.vault .item .iconWrap {
+    background-color: var(--color-bg-tertiary) !important;
 }
