@@ -81,7 +81,7 @@ body {
 	background: var(--color-text-secondary) !important;
 }
 
-.vault, .head, .root-loader {
+.vault, .root-loader {
 	background: var(--color-bg-primary) !important;
 }
 
