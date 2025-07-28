@@ -17,6 +17,7 @@
 
 1. Go to Anytype Menu Bar > File > Show Directory > Work
 2. Place `custom.css` in that directory
+    - There are minor tweaks available at the top of `custom.css` which you can uncomment to activate! 
 3. Close and re-open Anytype
 
 ## Gallery
