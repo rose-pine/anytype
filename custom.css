@@ -1,3 +1,29 @@
+/* The 3 commented blocks below are optional, uncomment to use them */
+
+/* Custom font */
+/*
+body {
+    font-family: "Cartograph CF";
+}
+*/
+
+
+/* Expanded active space indicator */
+/*
+.vault .item::after {
+    height: 80%;
+    top: 20%;
+    border-radius: 12px;
+}
+*/
+
+/* Blur backdrops */
+/*
+.dimmer {
+    backdrop-filter: blur(8px);
+}
+*/
+
 :root {
     --color-text-primary: #575279;
     --color-text-secondary: #797593;
@@ -67,40 +93,31 @@ html.themeDark {
     --color-green: #31748f;
 }
 
-/* Custom font
-body {
-    font-family: "Cartograph CF";
+/* Important: make QR codes scannable */
+.qrWrap {
+    background-color: white !important;
 }
-*/
 
 .block.blockText.textCallout>.wrapContent {
     border-radius: 30px;
 }
 
 .markerInner {
-	background: var(--color-text-secondary) !important;
+    background: var(--color-text-secondary) !important;
 }
 
 .vault, .root-loader {
-	background: var(--color-bg-primary) !important;
+    background: var(--color-bg-primary) !important;
 }
 
 .listWidget {
-	margin-top: 1em;
+    margin-top: 1em;
 }
 
 .vault .item .iconWrap {
-	background-color: var(--color-bg-tertiary);
-}
-
-.dimmer {
-	backdrop-filter: blur(8px);
+    background-color: var(--color-bg-tertiary);
 }
 
 #popupSettings-innerWrap, #popupPage-innerWrap {
     box-shadow: 0px 0px 20px 0px var(--color-bg-tertiary);
-}
-
-.qrWrap {
-	background-color: white !important;
 }
